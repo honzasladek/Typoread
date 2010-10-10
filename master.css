@@ -19,8 +19,8 @@ html,body {
 		background: #303030 url("http://github.com/honzasladek/Typoread/raw/master/background.png") repeat;
 		}
 	body { 
-		color: #2c3f25; line-height: 1.3; font-family: Georgia,serif; font-size: 16px;
-		background: #fefefe; 
+		color: #222; line-height: 1.3; font-family: Georgia,serif; font-size: 16px;
+		background: #eee;
 		margin: 20px auto; padding: 30px;
 		min-width: 500px; max-width: 760px; 
 		/* prefixed */ -webkit-box-shadow: 0px 0px 20px #000; -moz-box-shadow: 0px 0px 20px #000;
@@ -40,7 +40,7 @@ pre,code,kbd,samp,tt { font-family: monospace; *font-size: 108%; line-height:100
 */
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0; padding: 0;
-	font-weight: normal; font-style: normal; line-height: 1.4; color: #000;
+	font-weight: normal; font-style: normal; line-height: 1.4; color: #000; text-shadow: 0 1px 0 #fff;
 	}
 	h1 { font-size: 36px; margin: 0 0 1em; }
 	h2 { font-size: 24px; margin: 2em 0 .5em; }
@@ -59,14 +59,14 @@ code,kbd,samp,pre,tt,var { font-family: mono-space, monospace; }
 
 p { 
 	margin: 0.5em 0;
-	color: #333; font-size: 16px; line-height: 1.4;
+	color: #222; font-size: 16px; line-height: 1.4;
 	hyphenate: auto; hyphenate-lines: 3;
 	}
 	p+p {
 		margin-top: 0.5em;
 	}
 
-blockquote { color: #666; font-style: italic; }
+blockquote { color: #444; font-style: italic; }
 
 abbr,code,kbd,samp,small,var { line-height: 15px; }
 
@@ -80,7 +80,7 @@ ul,ol,dl,dialog { font-size: 16px; line-height: 1.4;  }
 * @subsection links
 *
 */
-a { color: #000; border-bottom: 1px dotted #000; text-decoration: none; }
+a { color: #222; border-bottom: 1px dotted #444; text-decoration: none; }
 	a:hover,a:focus,a:active { text-decoration: none; border-bottom-style: solid; }
 	a:active { position: relative; top: 1px; }
 a img {	border: 0; }
